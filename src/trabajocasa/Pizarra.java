@@ -22,6 +22,26 @@ public final class Pizarra {
     private Color color;
     private Date fecha;
 
+    private byte[] string;
+
+    /**
+     * Get the value of string
+     *
+     * @return the value of string
+     */
+    public byte[] getString() {
+        return string;
+    }
+
+    /**
+     * Set the value of string
+     *
+     * @param string new value of string
+     */
+    public void setString(byte[] string) {
+        this.string = string;
+    }
+
     public Pizarra() {
 
     }
